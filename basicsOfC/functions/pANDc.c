@@ -10,7 +10,7 @@ int fact(int n){
      return f;
 }
 
-
+// this is function to find npr
 int npr(int n,int r){
  return fact(n) / fact(n-r);
 }
