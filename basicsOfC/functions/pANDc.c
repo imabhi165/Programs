@@ -44,7 +44,7 @@ int main() {
            printf("r should not be grater than n");
          }
          printf("\n-------------------------------------------------------------------------\n");
-         break;
+        break;
         case 2:
         printf("Enter N : ");
          scanf("%d",&n);
@@ -52,17 +52,18 @@ int main() {
          scanf("%d",&r);
          if(n>r)
          {
-           printf("NPR is : %d",npr(n,r));
+          printf("NCR is : %d",ncr(n,r));
          }
          else 
          {
            printf("r should not be grater than n");
          }
-         printf("NCR is : %d",ncr(n,r));
+         
           printf("\n-------------------------------------------------------------------------\n");
-         break;
+        break;
         default :
          printf("You Entered Wrong Entry");
+         break;
     }
    
   
