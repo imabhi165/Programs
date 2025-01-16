@@ -11,6 +11,7 @@ void sort(int *a,int s){
         }
     }
 }
+
 int main() {
     int n;
     printf("Enter Length of an Array : ");
