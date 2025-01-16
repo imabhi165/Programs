@@ -1,7 +1,6 @@
-/*
+
 #include<stdio.h>
 int main() {
-  /* 
     int a =5;
     int *p1, **p2;
     p1 = &a;
@@ -10,17 +9,18 @@ int main() {
     printf("%x\n",p1);
     printf("%d\n",*p1); 
     printf("%d\n",**p2);
-*/
-/* 
-int arr[5] = {1,2,3,4,5};
-int *p = arr;
-int i;
-printf("Printing Array elements: \n");
-for(i=0;i<5;i++){
-    // printf("%d\n",*(p+i));
-    printf("%d\n",*(p+i));
+
 }
-*/
+
+// int arr[5] = {1,2,3,4,5};
+// int *p = arr;
+// int i;
+// printf("Printing Array elements: \n");
+// for(i=0;i<5;i++){
+//     // printf("%d\n",*(p+i));
+//     printf("%d\n",*(p+i));
+// }
+
 
 
 /*
@@ -36,7 +36,7 @@ for(i=0;i<5;i++){
 
 
 
-*/
+
 
 
 
@@ -53,3 +53,5 @@ int main() {
     free(ptr); // Free the memory
     return 0;
 }
+
+*/
