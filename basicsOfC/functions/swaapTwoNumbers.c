@@ -30,12 +30,5 @@ printf("After Swapping the Value of a = %d and b = %d\n",n1,n2);
 
 
 
-
-
-
-
-
-
-
 return 0;
 }
