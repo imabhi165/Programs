@@ -24,7 +24,7 @@ int sumOfDigit(int n)
     string s = to_string(n);
     int sum = 0;
 
-    // Loop through each character, convert to digit, and add to sum
+    // Loop through each character, convert to digit, and add to sum->This approach is one of the best approach of all time
     for (char ch : s)
     {
         sum += ch - '0';
