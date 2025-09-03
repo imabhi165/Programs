@@ -1,3 +1,7 @@
+
+
+
+```
 # Generate a 2048-bit RSA private key for the Root CA
 
 openssl genrsa -out ca.key 2048
@@ -20,3 +24,4 @@ openssl req -new -key test_rcc_server.key -out test_rcc_server.csr \
 
 openssl x509 -req -in test_rcc_server.csr -CA test_rcs_ca.crt -CAkey test_rcs_ca.key -CAcreateserial \
 -out test_rcc_server.crt -days 36500 -sha256
+```
