@@ -1,4 +1,4 @@
-# C Program Solutions and DSP Algorithms
+# C Program Solutions 
 
 This repository contains a collection of C programs ranging from fundamental concepts to advanced algorithms, with a special focus on Digital Signal Processing (DSP).
 
